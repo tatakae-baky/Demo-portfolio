@@ -40,14 +40,20 @@ nav a {
   font-weight: 800;
 }
 .banner{
-    padding: 40px 150px 30px 180px;
+    padding: 40px 150px 0px 180px;
     display: flex;
     align-items: center;
 }
 .profile-pic{
     width: 380px;
     height: 400px;
+    border-radius: 20px;
 }
 .header{
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 900px;
+    background-position-x: 415px;
 }
