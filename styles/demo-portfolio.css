@@ -4,7 +4,7 @@
 .primary-button {
   border-radius: 5px;
   background: #fd6e0a;
-  border: 0;
+  border: 100;
   color: white;
   font-size: 20px;
   font-weight: 700;
@@ -18,6 +18,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 190px;
 }
 nav > ul {
   display: flex;
@@ -37,4 +38,16 @@ nav a {
   color: var(--Dark-01, #181818);
   font-size: 45px;
   font-weight: 800;
+}
+.banner{
+    padding: 40px 150px 30px 180px;
+    display: flex;
+    align-items: center;
+}
+.profile-pic{
+    width: 380px;
+    height: 400px;
+}
+.header{
+    background-color: #FFF8F3;
 }
